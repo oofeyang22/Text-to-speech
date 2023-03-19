@@ -1,0 +1,44 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    background: grey;
+    max-width: 400px;
+    padding: 0.8rem;
+    max-height: 600px;
+    border-radius: 10px;
+}
+textarea{
+    width: 96%;
+    height: 200px;
+    padding: 0.4rem;
+    border-radius: 10px;
+    justify-content: center;
+}
+select{
+    width: 100%;
+    margin-bottom: 0.5rem;
+    padding: 0.1rem;
+    text-align: center;
+    
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+}
+#convert{
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 0.5rem;
+    text-align:center;
+}
+h2{
+    margin-bottom: 0.3rem;
+}
+.column p{
+    font-weight: 600;
+}
